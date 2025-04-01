@@ -1,34 +1,29 @@
-🔹 Project Plan 🔹
+
+#############   Tech Stack   ################
+
+Frontend: React (for a smooth code editor experience, like Monaco or CodeMirror).
+Backend: Flask/Django (to handle AI processing and API calls).
+AI Processing: OpenAI Codex, GPT-4, and CodeBERT (for reviewing, commenting, and suggesting improvements).
+
+#############    Phase 1: Project Setup  ######
+
+Define Requirements – Features, scope, and user flow.
+Set Up the Backend – Flask/Django project structure, API endpoints.
+Integrate AI Models – OpenAI Codex, GPT-4, CodeBERT for code analysis.
+Develop the Frontend – React + CodeMirror/Monaco for the code editor.
+Build the Commenting System – AI-generated inline comments.
+Code Suggestion Engine – Suggest improved versions of the code.
+Testing & Deployment – API testing, UI testing, deploy on cloud.
 
 
-1. Data Collection 📊
-Scrape or use APIs (LinkedIn, Indeed, etc.) for job listings.
-Collect user profiles (skills, experience, preferences).
-Use publicly available datasets (Kaggle, Glassdoor, etc.).
 
-2. Data Preprocessing 🛠️
-Clean and normalize job descriptions and resumes.
-Use NLP techniques (TF-IDF, Word2Vec, or BERT) for text processing.
-Handle missing values and feature engineering.
+SPRINT 1 
+=========
 
-3. Recommendation Model 🧠
-Rule-Based Filtering (location, salary range, job role).
-Machine Learning Models:
-Content-Based Filtering (match jobs based on user profile).
-Collaborative Filtering (suggest jobs based on similar users).
-Hybrid Model (combine multiple approaches).
-Use ML frameworks like Scikit-Learn, TensorFlow, or PyTorch.
+Requirements:
+Users input a function as plain text.
+AI analyzes the function and adds inline comments for improvements.
+No authentication, no editor—just a simple input and response system.
 
-4. Model Training & Evaluation 📈
-Train the model using job posting and user interaction data.
-Use evaluation metrics like Precision@K, Recall@K, and RMSE.
+Tech : Django
 
-5. Web/App Interface 🌐
-Build a simple web app using Flask/Django.
-Deploy with a database (PostgreSQL, Firebase, MongoDB).
-Implement a recommendation dashboard.
-
-6. Deployment & Scaling 🚀
-Deploy on AWS, Google Cloud, or Heroku.
-Optimize performance with caching and indexing.
-Would you like to start with data collection, or do you have a specific part in mind?
